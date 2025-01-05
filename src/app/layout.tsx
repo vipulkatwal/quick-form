@@ -1,6 +1,10 @@
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/ThemeProvider"
 
+type RootLayoutProps = {
+  children: React.ReactNode
+}
+
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
