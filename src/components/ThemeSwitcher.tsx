@@ -8,7 +8,7 @@ import { SunIcon } from "@radix-ui/react-icons";
 function ThemeSwitcher() {
 
   const {theme, setTheme} = useTheme();
-  const {mounted, setMounted} = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
