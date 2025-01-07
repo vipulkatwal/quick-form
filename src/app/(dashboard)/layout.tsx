@@ -13,7 +13,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 						{/* Add any additional nav items here */}
 					</div>
 				</div>
-
 				<div className="flex items-center gap-4">
 					<ThemeSwitcher />
 					<div className="h-8 w-[1px] bg-border/50" />
@@ -28,12 +27,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 					/>
 				</div>
 			</nav>
-
 			<main className="flex w-full flex-grow">{children}</main>
 		</div>
 	);
 }
-
-export default Layout;
-
-export default Layout
